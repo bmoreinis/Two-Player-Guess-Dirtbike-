@@ -1,0 +1,11 @@
+<html>
+  <body>
+  <h1 id = "winner">Who Won?</h1>
+  <img src = "https://i.pinimg.com/originals/55/81/1c/55811c71e659536412e0af8d66165583.jpg" width = "300px" />
+  <script>
+  var winPlayer = localStorage.getItem("winner");
+  var headerValue = document.getElementById("winner");
+  headerValue.innerHTML = winPlayer+ " Won!";
+</script>
+  </body>
+</html>
